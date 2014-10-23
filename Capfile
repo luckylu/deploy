@@ -7,6 +7,7 @@ require 'capistrano/rails'
 require 'capistrano/bundler'
 require 'capistrano/rvm'
 require 'capistrano/puma'
+Rake::Task[:production].invoke
 # Includes tasks from other gems included in your Gemfile
 #
 # For documentation on these, see for example:
